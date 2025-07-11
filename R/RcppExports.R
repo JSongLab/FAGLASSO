@@ -56,7 +56,3 @@ f_agL <- function(y, design, cov_mat, basis_num, weights, lambda_1, lambda_2, Ps
     .Call(`_FAGLasso_f_agL`, y, design, cov_mat, basis_num, weights, lambda_1, lambda_2, Ps, initN, centered, active_dim, max_iter, standardnorm)
 }
 
-rcpp_hello_world <- function() {
-    .Call(`_FAGLasso_rcpp_hello_world`)
-}
-

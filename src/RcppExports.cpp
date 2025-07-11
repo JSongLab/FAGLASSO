@@ -70,23 +70,12 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// rcpp_hello_world
-List rcpp_hello_world();
-RcppExport SEXP _FAGLasso_rcpp_hello_world() {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    rcpp_result_gen = Rcpp::wrap(rcpp_hello_world());
-    return rcpp_result_gen;
-END_RCPP
-}
 
 static const R_CallMethodDef CallEntries[] = {
     {"_FAGLasso_matpower_1", (DL_FUNC) &_FAGLasso_matpower_1, 3},
     {"_FAGLasso_fpca_cpp", (DL_FUNC) &_FAGLasso_fpca_cpp, 2},
     {"_FAGLasso_soft_thresh", (DL_FUNC) &_FAGLasso_soft_thresh, 1},
     {"_FAGLasso_f_agL", (DL_FUNC) &_FAGLasso_f_agL, 13},
-    {"_FAGLasso_rcpp_hello_world", (DL_FUNC) &_FAGLasso_rcpp_hello_world, 0},
     {NULL, NULL, 0}
 };
 
