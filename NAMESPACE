@@ -2,6 +2,7 @@
 
 export(Fun_Reg_AGL)
 export(f_agL)
+export(fpca_cpp)
 export(matpower_1)
 export(numeric_integ)
 export(soft_thresh)
