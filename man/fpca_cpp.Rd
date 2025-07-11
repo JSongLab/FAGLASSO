@@ -22,6 +22,7 @@ A list with the following components:
 \item \code{Sigma}:  list object with \code{Sigma[[j]]} is the coordinate representation of j-th covariance operator, whose basis system is eigenfunctions.
 \item \code{non_centered}: non_centered design matrix based on eigenfunctions.
 }
+@export
 }
 \description{
 Funtional principal component analysis
